@@ -1,5 +1,17 @@
 # ResurrectJS
 
+Based on [ResurrectJS by skeeto](https://github.com/skeeto/resurrect-js) - added packaging to support
+AMD based approach (for example angular2)
+
+To use it, add to your package.json file the following dependency:
+
+"resurrect-js": "git+ssh://git@github.com/meiriko/resurrect-js.git"
+
+or simply run:
+
+npm install --save git+ssh://git@github.com/meiriko/resurrect-js
+
+
 ResurrectJS preserves object behavior (prototypes) and reference
 circularity with a special JSON encoding. Unlike flat JSON, it can
 also properly resurrect these types of values:

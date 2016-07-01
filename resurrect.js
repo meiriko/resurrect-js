@@ -80,6 +80,11 @@
  *
  * @see http://nullprogram.com/blog/2013/03/28/
  */
+!function(){
+    var Resurrect = {
+        version: "1.0.0",
+        Resurrect: Resurrect
+    }; // semver
 
 /**
  * @param {Object} [options] See options documentation.
@@ -537,3 +542,7 @@ Resurrect.prototype.resurrect = function(string) {
     this.table = null;
     return result;
 };
+    if (typeof define === "function" && define.amd) this.Resurrect = Resurrect, define(Resurrect);
+    else if (typeof module === "object" && module.exports) module.exports = Resurrect;
+    else this.Resurrect = Resurrect;
+}();

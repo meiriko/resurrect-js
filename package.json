@@ -1,0 +1,26 @@
+{
+  "name": "resurrect-js",
+  "version": "1.0.0",
+  "description": "npm packaging of skeeto's resurrect-js",
+  "main": "resurrect.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meiriko/resurrect-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "resurrect"
+  ],
+  "author": "Meir <meir.shahar@gmail.com> (https://www.linkedin.com/in/meirs)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meiriko/resurrect-js/issues"
+  },
+  "homepage": "https://github.com/meiriko/resurrect-js#readme"
+}
