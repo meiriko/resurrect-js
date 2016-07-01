@@ -11,6 +11,7 @@ or simply run:
 
 npm install --save git+ssh://git@github.com/meiriko/resurrect-js
 
+=================== original readme ======================
 
 ResurrectJS preserves object behavior (prototypes) and reference
 circularity with a special JSON encoding. Unlike flat JSON, it can
