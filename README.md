@@ -9,7 +9,30 @@ To use it, add to your package.json file the following dependency:
 
 or simply run:
 
+```
 npm install --save git+ssh://git@github.com/meiriko/resurrect-js
+```
+
+Angular2 usage example:
+
+In your index.html put:
+
+```javascript
+'resurrect-js': 'node_modules/resurrect-js/resurrect.js'
+```
+
+Then in the class that wishes to use it put:
+
+```javascript
+import 'resurrect-js';
+declare var ResurrectJS: any;
+```
+
+To get an instance (see original documentation below):
+
+```javascript
+var necromancer = new ResurrectJS.Resurrect();
+```
 
 =================== original readme ======================
 

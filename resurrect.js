@@ -81,7 +81,7 @@
  * @see http://nullprogram.com/blog/2013/03/28/
  */
 !function(){
-    var Resurrect = {
+    var ResurrectJS = {
         version: "1.0.0",
         Resurrect: Resurrect
     }; // semver
@@ -542,7 +542,7 @@ Resurrect.prototype.resurrect = function(string) {
     this.table = null;
     return result;
 };
-    if (typeof define === "function" && define.amd) this.Resurrect = Resurrect, define(Resurrect);
-    else if (typeof module === "object" && module.exports) module.exports = Resurrect;
-    else this.Resurrect = Resurrect;
+    if (typeof define === "function" && define.amd) this.ResurrectJS = ResurrectJS, define(ResurrectJS);
+    else if (typeof module === "object" && module.exports) module.exports = ResurrectJS;
+    else this.ResurrectJS = ResurrectJS;
 }();
